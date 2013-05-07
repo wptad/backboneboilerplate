@@ -2,8 +2,22 @@
 # Backbone boilerplate
 [http://backboneboilerplate.com](http://backboneboilerplate.com) is a community driven effort to help developers learn and rapidly deploy single page web applications.
 
-## Philosophy
-Coming soon
+
+## How to use it
+* Make user express installed
+
+if not, use npm to install:
+
+```
+   npm install express
+```
+
+* just simply run:
+
+```
+   node lib/ui/app.js
+
+```
 
 ## Other resources
 
