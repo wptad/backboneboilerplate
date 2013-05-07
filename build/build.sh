@@ -2,9 +2,9 @@
 
 rm -rf output
 node r.js -o build.js
-node r.js -o cssIn=../css/styles.css out=output/css/styles.css
+node r.js -o cssIn=../html/css/styles.css out=output/css/styles.css
 
-cp ../index.html output/index.html
+cp ../html/index.html output/index.html
 REQUIRE_VERSION='2.1.5'
 SEDCMD='sed -i'
 if [[ $OSTYPE == *"darwin"* ]]; then
